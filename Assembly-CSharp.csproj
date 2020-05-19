@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\_Script\LerpExemple.cs" />
+    <Compile Include="Assets\_Script\Test.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/vasaevch/Desktop/Testing_Unity_Project/SakutinKurs/Unity Базовый/AntiRogueAlarm/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
