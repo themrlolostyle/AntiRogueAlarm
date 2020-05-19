@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{4BF7F3A0-4915-4C26-5120-2665B03E77B8}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Script/LerpExemple.cs">
+    <Files>
+      <File FileName="Assets/_Script/LerpExemple.cs" Line="7" Column="3" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AntiRogueAlarm" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="_Script" expanded="True">
+                <Node name="LerpExemple.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d657bd43-c066-422f-ab5a-7837538c85bd" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
