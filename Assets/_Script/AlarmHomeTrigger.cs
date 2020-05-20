@@ -7,7 +7,7 @@ public class AlarmHomeTrigger : MonoBehaviour
 {
     [SerializeField] private float _volumeSpeed;
 
-    private float _helpVolumeSpeed;
+    private float _volumeChanger;
     private AudioSource _audioSource;
 
     private void Start()
@@ -18,14 +18,14 @@ public class AlarmHomeTrigger : MonoBehaviour
 
     private void Update()
     {
-        _audioSource.volume += _helpVolumeSpeed * Time.deltaTime;
+        _audioSource.volume += _volumeChanger * Time.deltaTime;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.TryGetComponent<Movement>(out Movement movement))
         {
-            _helpVolumeSpeed = _volumeSpeed;
+            _volumeChanger = _volumeSpeed;
         }
     }
 
@@ -33,7 +33,7 @@ public class AlarmHomeTrigger : MonoBehaviour
     {
         if (collision.gameObject.TryGetComponent<Movement>(out Movement movement))
         {
-            _helpVolumeSpeed = -_volumeSpeed;
+            _volumeChanger = -_volumeSpeed;
         }
     }
 }
