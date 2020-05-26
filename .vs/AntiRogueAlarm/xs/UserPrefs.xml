@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{4BF7F3A0-4915-4C26-5120-2665B03E77B8}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Script/AlarmHomeTrigger.cs">
     <Files>
-      <File FileName="Assets/_Script/AlarmHomeTrigger.cs" Line="3" Column="19" />
-      <File FileName="Assets/_Script/Movement.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Script/AlarmHomeTrigger.cs" Line="6" Column="1" />
+      <File FileName="Assets/_Script/Movement.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,7 +20,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="cd06da98-00d9-440e-80f2-2d00595042dd" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d14e3151-ee7d-474d-aa01-da4668a9b033" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

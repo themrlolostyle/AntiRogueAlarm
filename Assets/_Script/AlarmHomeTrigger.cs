@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
+[RequireComponent(typeof(AudioSource))]
 public class AlarmHomeTrigger : MonoBehaviour
 {
     [SerializeField] private float _volumeSpeed;
 
-    private float _volumeChanger;
+    private float _nextValue;
     private AudioSource _audioSource;
 
     private void Start()
@@ -18,14 +19,14 @@ public class AlarmHomeTrigger : MonoBehaviour
 
     private void Update()
     {
-        _audioSource.volume += _volumeChanger * Time.deltaTime;
+        _audioSource.volume = Mathf.Lerp(_audioSource.volume, _nextValue, _volumeSpeed * Time.deltaTime);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.TryGetComponent<Movement>(out Movement movement))
         {
-            _volumeChanger = _volumeSpeed;
+            _nextValue = 1;
         }
     }
 
@@ -33,7 +34,7 @@ public class AlarmHomeTrigger : MonoBehaviour
     {
         if (collision.gameObject.TryGetComponent<Movement>(out Movement movement))
         {
-            _volumeChanger = -_volumeSpeed;
+            _nextValue = 0;
         }
     }
 }
