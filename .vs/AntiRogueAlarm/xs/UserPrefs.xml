@@ -1,15 +1,14 @@
 ﻿<Properties StartupConfiguration="{4BF7F3A0-4915-4C26-5120-2665B03E77B8}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Script/AlarmHomeTrigger.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/AlarmHomeTrigger.cs">
     <Files>
-      <File FileName="Assets/_Script/AlarmHomeTrigger.cs" Line="6" Column="1" />
-      <File FileName="Assets/_Script/Movement.cs" />
+      <File FileName="Assets/Script/AlarmHomeTrigger.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AntiRogueAlarm" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="_Script" expanded="True">
+              <Node name="Script" expanded="True">
                 <Node name="AlarmHomeTrigger.cs" selected="True" />
               </Node>
             </Node>
@@ -20,7 +19,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d14e3151-ee7d-474d-aa01-da4668a9b033" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="969fd1cf-7d81-4586-8d6d-18777425decc" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

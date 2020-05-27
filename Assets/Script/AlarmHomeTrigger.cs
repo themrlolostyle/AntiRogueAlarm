@@ -6,7 +6,7 @@ using UnityEngine.Events;
 [RequireComponent(typeof(AudioSource))]
 public class AlarmHomeTrigger : MonoBehaviour
 {
-    [SerializeField] private float _volumeSpeed;
+    [SerializeField] private float _speedChange;
 
     private float _nextValue;
     private AudioSource _audioSource;
@@ -19,7 +19,7 @@ public class AlarmHomeTrigger : MonoBehaviour
 
     private void Update()
     {
-        _audioSource.volume = Mathf.Lerp(_audioSource.volume, _nextValue, _volumeSpeed * Time.deltaTime);
+        _audioSource.volume = Mathf.Lerp(_audioSource.volume, _nextValue, _speedChange * Time.deltaTime);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
